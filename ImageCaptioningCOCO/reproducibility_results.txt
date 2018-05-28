@@ -1,0 +1,148 @@
+Resutls for twin net implementation 
+
+Dataset : MSCOCO - using karpathy's train, eval, test split
+
+All models have learning rate deacy of 0.8 after every 3 epochs
+
+Show tell model
+	batch size : 512, learning rate : 0.001, optmizer: adam, beam size: 1, model trained for 6 epochs on 1080 Ti
+
+	computing Bleu score...
+	Bleu_1: 0.705
+	Bleu_2: 0.531
+	Bleu_3: 0.389
+	Bleu_4: 0.283
+
+	computing METEOR score...
+	METEOR: 0.235
+
+	computing Rouge score...
+	ROUGE_L: 0.513
+
+	computing CIDEr score...
+	CIDEr: 0.865
+
+Show tell twin model
+	batch size : 128, learning rate : 0.001, optmizer: adam, beam size: 1, model trained for 6 epochs on 1080 Ti
+
+	computing Bleu score...
+	Bleu_1: 0.706
+	Bleu_2: 0.532
+	Bleu_3: 0.391
+	Bleu_4: 0.288
+
+	computing METEOR score...
+	METEOR: 0.237
+
+	computing Rouge score...
+	ROUGE_L: 0.515
+
+	computing CIDEr score...
+	CIDEr: 0.886
+
+Show attend tell model
+	batch size : 128, learning rate : 0.001, optmizer: adam, beam size: 1, model trained for 7 epochs on 1080 Ti
+
+	computing Bleu score...
+	Bleu_1: 0.738
+	Bleu_2: 0.572
+	Bleu_3: 0.429
+	Bleu_4: 0.319
+	
+	computing METEOR score...
+	METEOR: 0.253
+	
+	computing Rouge score...
+	ROUGE_L: 0.539
+	
+	computing CIDEr score...
+	CIDEr: 0.998
+
+Show attend tell twin model
+	batch size : 64, learning rate : 0.001, optmizer: adam, beam size: 1, model trained for 20 epochs on 1080 Ti
+
+	computing Bleu score...
+	Bleu_1: 0.693
+	Bleu_2: 0.344
+	Bleu_3: 0.135
+	Bleu_4: 0.039
+	
+	computing METEOR score...
+	METEOR: 0.191
+	
+	computing Rouge score...
+	ROUGE_L: 0.464
+	
+	computing CIDEr score...
+	CIDEr: 0.610
+
+
+Models trained with learning rate 0.001 without decay using early stopping
+
+Show tell
+
+	computing Bleu score...
+	Bleu_1: 0.725
+	Bleu_2: 0.555
+	Bleu_3: 0.415
+	Bleu_4: 0.310
+	
+	computing METEOR score...
+	METEOR: 0.249
+	
+	computing Rouge score...
+	ROUGE_L: 0.529
+	
+	computing CIDEr score...
+	CIDEr: 0.953
+
+Show tell twin
+
+	computing Bleu score...
+	Bleu_1: 0.705
+	Bleu_2: 0.531
+	Bleu_3: 0.390
+	Bleu_4: 0.287
+	
+	computing METEOR score...
+	METEOR: 0.239
+	
+	computing Rouge score...
+	ROUGE_L: 0.517
+	
+	computing CIDEr score...
+	CIDEr: 0.884
+
+Show attend tell
+
+	computing Bleu score...
+	Bleu_1: 0.730
+	Bleu_2: 0.564
+	Bleu_3: 0.423
+	Bleu_4: 0.315
+	
+	computing METEOR score...
+	METEOR: 0.250
+	
+	computing Rouge score...
+	ROUGE_L: 0.533
+	
+	computing CIDEr score...
+	CIDEr: 0.976
+
+Show attend tell twin
+
+	computing Bleu score...
+	Bleu_1: 0.681
+	Bleu_2: 0.317
+	Bleu_3: 0.113
+	Bleu_4: 0.032
+	
+	computing METEOR score...
+	METEOR: 0.187
+	
+	computing Rouge score...
+	ROUGE_L: 0.458
+	
+	computing CIDEr score...
+	CIDEr: 0.582
