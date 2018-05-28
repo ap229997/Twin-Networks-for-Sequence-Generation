@@ -1,4 +1,4 @@
-## Twin Networks for Sequence Generation for Image Captioning
+## Twin Networks for Image Captioning
 PyTorch implementation for ICLR 2018 accepted paper *Twin Networks: Matching the Future for Sequence Generation* [[pdf]](https://openreview.net/pdf?id=BydLzGb0Z) for verifying the results for image captioning on MSCOCO dataset.
 
 ### Setup
