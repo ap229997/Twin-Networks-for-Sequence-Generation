@@ -1,0 +1,70 @@
+Epoch [0/10], Step [100/500], loss: 331.586986, fwd loss: 163.856971, twin loss: 0.009267, bwd loss: 167.720745, 0.69it/s
+Epoch [0/10], Step [200/500], loss: 235.340270, fwd loss: 114.565259, twin loss: 0.016296, bwd loss: 120.758715, 0.68it/s
+Epoch [0/10], Step [300/500], loss: 212.524998, fwd loss: 104.956378, twin loss: 0.016520, bwd loss: 107.552101, 0.68it/s
+Epoch [0/10], Step [400/500], loss: 201.371824, fwd loss: 99.074819, twin loss: 0.015743, bwd loss: 102.281263, 0.68it/s
+Epoch [0/10], Step [500/500], loss: 195.863782, fwd loss: 95.864733, twin loss: 0.015504, bwd loss: 99.983546, 0.67it/s
+valid -- nll: 93.421822
+test -- nll: 92.848805
+Epoch [1/10], Step [100/500], loss: 191.417358, fwd loss: 94.204551, twin loss: 0.015900, bwd loss: 97.196907, 0.53it/s
+Epoch [1/10], Step [200/500], loss: 188.954955, fwd loss: 93.786930, twin loss: 0.016555, bwd loss: 95.151472, 0.67it/s
+Epoch [1/10], Step [300/500], loss: 185.218148, fwd loss: 91.771610, twin loss: 0.016700, bwd loss: 93.429839, 0.67it/s
+Epoch [1/10], Step [400/500], loss: 184.194962, fwd loss: 91.228617, twin loss: 0.017253, bwd loss: 92.949091, 0.67it/s
+Epoch [1/10], Step [500/500], loss: 185.379606, fwd loss: 90.686598, twin loss: 0.017818, bwd loss: 94.675189, 0.67it/s
+valid -- nll: 90.055810
+test -- nll: 89.381219
+Epoch [2/10], Step [100/500], loss: 181.291802, fwd loss: 89.808443, twin loss: 0.017753, bwd loss: 91.465606, 0.53it/s
+Epoch [2/10], Step [200/500], loss: 179.476197, fwd loss: 88.886874, twin loss: 0.017872, bwd loss: 90.571450, 0.67it/s
+Epoch [2/10], Step [300/500], loss: 181.130283, fwd loss: 89.650897, twin loss: 0.018338, bwd loss: 91.461048, 0.67it/s
+Epoch [2/10], Step [400/500], loss: 179.719708, fwd loss: 88.576833, twin loss: 0.017910, bwd loss: 91.124963, 0.67it/s
+Epoch [2/10], Step [500/500], loss: 178.192298, fwd loss: 88.199182, twin loss: 0.017127, bwd loss: 89.975989, 0.67it/s
+valid -- nll: 87.146223
+test -- nll: 86.681729
+Epoch [3/10], Step [100/500], loss: 178.073851, fwd loss: 88.252246, twin loss: 0.016854, bwd loss: 89.804751, 0.53it/s
+Epoch [3/10], Step [200/500], loss: 176.206409, fwd loss: 87.309308, twin loss: 0.016459, bwd loss: 88.880643, 0.67it/s
+Epoch [3/10], Step [300/500], loss: 175.593713, fwd loss: 87.311733, twin loss: 0.017001, bwd loss: 88.264979, 0.67it/s
+Epoch [3/10], Step [400/500], loss: 175.753913, fwd loss: 87.700219, twin loss: 0.016704, bwd loss: 88.036991, 0.67it/s
+Epoch [3/10], Step [500/500], loss: 175.545970, fwd loss: 87.566592, twin loss: 0.016948, bwd loss: 87.962432, 0.67it/s
+valid -- nll: 88.941415
+test -- nll: 88.394760
+Epoch [4/10], Step [100/500], loss: 174.662829, fwd loss: 86.921323, twin loss: 0.016922, bwd loss: 87.724585, 0.54it/s
+Epoch [4/10], Step [200/500], loss: 176.314568, fwd loss: 88.077276, twin loss: 0.018266, bwd loss: 88.219026, 0.68it/s
+Epoch [4/10], Step [300/500], loss: 173.485165, fwd loss: 86.831043, twin loss: 0.017066, bwd loss: 86.637055, 0.68it/s
+Epoch [4/10], Step [400/500], loss: 173.313418, fwd loss: 85.601272, twin loss: 0.016962, bwd loss: 87.695185, 0.68it/s
+Epoch [4/10], Step [500/500], loss: 172.631051, fwd loss: 85.591007, twin loss: 0.016707, bwd loss: 87.023337, 0.68it/s
+valid -- nll: 84.999577
+test -- nll: 84.506792
+Epoch [5/10], Step [100/500], loss: 174.311708, fwd loss: 86.042430, twin loss: 0.017214, bwd loss: 88.252066, 0.53it/s
+Epoch [5/10], Step [200/500], loss: 173.000709, fwd loss: 85.688707, twin loss: 0.016999, bwd loss: 87.295002, 0.67it/s
+Epoch [5/10], Step [300/500], loss: 172.188187, fwd loss: 86.103703, twin loss: 0.016906, bwd loss: 86.067579, 0.67it/s
+Epoch [5/10], Step [400/500], loss: 172.354155, fwd loss: 85.538266, twin loss: 0.016905, bwd loss: 86.798983, 0.67it/s
+Epoch [5/10], Step [500/500], loss: 171.537124, fwd loss: 84.916320, twin loss: 0.016608, bwd loss: 86.604196, 0.67it/s
+valid -- nll: 85.468892
+test -- nll: 85.055706
+Epoch [6/10], Step [100/500], loss: 172.241296, fwd loss: 85.568137, twin loss: 0.017351, bwd loss: 86.655808, 0.53it/s
+Epoch [6/10], Step [200/500], loss: 170.711537, fwd loss: 84.832129, twin loss: 0.016989, bwd loss: 85.862418, 0.67it/s
+Epoch [6/10], Step [300/500], loss: 171.188038, fwd loss: 85.334832, twin loss: 0.017825, bwd loss: 85.835380, 0.67it/s
+Epoch [6/10], Step [400/500], loss: 171.071004, fwd loss: 85.016866, twin loss: 0.016703, bwd loss: 86.037434, 0.67it/s
+Epoch [6/10], Step [500/500], loss: 173.363669, fwd loss: 84.651863, twin loss: 0.019057, bwd loss: 88.692750, 0.67it/s
+valid -- nll: 89.406988
+test -- nll: 88.960117
+Epoch [7/10], Step [100/500], loss: 171.661828, fwd loss: 85.589461, twin loss: 0.017761, bwd loss: 86.054606, 0.53it/s
+Epoch [7/10], Step [200/500], loss: 172.976508, fwd loss: 85.049503, twin loss: 0.018678, bwd loss: 87.908327, 0.67it/s
+Epoch [7/10], Step [300/500], loss: 172.720183, fwd loss: 86.003636, twin loss: 0.019031, bwd loss: 86.697516, 0.67it/s
+Epoch [7/10], Step [400/500], loss: 174.861048, fwd loss: 87.513944, twin loss: 0.018573, bwd loss: 87.328532, 0.67it/s
+Epoch [7/10], Step [500/500], loss: 170.635972, fwd loss: 84.710424, twin loss: 0.017287, bwd loss: 85.908261, 0.67it/s
+valid -- nll: 83.886960
+test -- nll: 83.445590
+Epoch [8/10], Step [100/500], loss: 171.491082, fwd loss: 84.638766, twin loss: 0.017184, bwd loss: 86.835133, 0.53it/s
+Epoch [8/10], Step [200/500], loss: 169.106257, fwd loss: 83.763147, twin loss: 0.017082, bwd loss: 85.326028, 0.67it/s
+Epoch [8/10], Step [300/500], loss: 170.500032, fwd loss: 85.352122, twin loss: 0.017217, bwd loss: 85.130692, 0.67it/s
+Epoch [8/10], Step [400/500], loss: 169.906410, fwd loss: 84.666516, twin loss: 0.017747, bwd loss: 85.222148, 0.67it/s
+Epoch [8/10], Step [500/500], loss: 169.424471, fwd loss: 84.039677, twin loss: 0.017009, bwd loss: 85.367784, 0.67it/s
+valid -- nll: 88.436512
+test -- nll: 88.013125
+Epoch [9/10], Step [100/500], loss: 169.599404, fwd loss: 84.109741, twin loss: 0.017279, bwd loss: 85.472384, 0.53it/s
+Epoch [9/10], Step [200/500], loss: 168.085506, fwd loss: 83.494528, twin loss: 0.017387, bwd loss: 84.573589, 0.67it/s
+Epoch [9/10], Step [300/500], loss: 169.279190, fwd loss: 84.417331, twin loss: 0.017459, bwd loss: 84.844400, 0.67it/s
+Epoch [9/10], Step [400/500], loss: 168.038481, fwd loss: 83.535515, twin loss: 0.017289, bwd loss: 84.485678, 0.67it/s
+Epoch [9/10], Step [500/500], loss: 173.983746, fwd loss: 88.781888, twin loss: 0.021092, bwd loss: 85.180765, 0.67it/s
+valid -- nll: 85.982362
+test -- nll: 85.526960
