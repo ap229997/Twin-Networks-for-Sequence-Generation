@@ -34,12 +34,12 @@ parser.add_argument('--num_images', type=int, default=-1,
                 help='how many images to use when periodically evaluating the loss? (-1 = all)')
 parser.add_argument('--language_eval', type=int, default=0,
                 help='Evaluate language as well (1 = yes, 0 = no)? BLEU/CIDEr/METEOR/ROUGE_L? requires coco-caption code from Github.')
-parser.add_argument('--dump_images', type=int, default=0,
-                help='Dump images into eval_results/imgs folder for vis? (1=yes,0=no)')
+parser.add_argument('--dump_images', type=str, default='eval_results/imgs',
+                help='Dump images into specified folder for visualisation?')
 parser.add_argument('--dump_json', type=int, default=1,
-                help='Dump json with predictions into eval_results folder? (1=yes,0=no)')
-parser.add_argument('--dump_path', type=int, default=0,
-                help='Write image paths along with predictions into eval_results/captions.json? (1=yes,0=no)')
+                help='Dump json with predictions into specified folder? (1=yes,0=no)')
+parser.add_argument('--dump_path', type=str, default='eval_results/captions.json',
+                help='Write image paths along with predictions into specified file?')
 
 # Sampling options
 parser.add_argument('--sample_max', type=int, default=1,
