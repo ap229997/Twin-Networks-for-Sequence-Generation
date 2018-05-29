@@ -104,9 +104,9 @@ def evaluate(model, bsz, data_x, data_y):
 @click.option('--nlayers', default=1)
 @click.option('--num_epochs', default=10)
 @click.option('--rnn_dim', default=1024)
-@click.option('--bsz', default=50)
+@click.option('--bsz', default=50) # batch size
 @click.option('--lr', default=0.001)
-@click.option('--twin', default=0) # used to specify whether to use the twin network or not and what weightage to give it
+@click.option('--twin', default=0.) # used to specify whether to use the twin network or not and what weightage to give it
 
 def train(nlayers, num_epochs, rnn_dim, bsz, lr, twin):
     # use hugo's binarized MNIST

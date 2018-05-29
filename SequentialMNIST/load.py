@@ -25,7 +25,6 @@ def load_mnist(data_dir):
     trY = trY[:-10000]
     return trX, vaX, teX, trY, vaY, teY
 
-
 def load_binarized_mnist(data_path):
     # binarized_mnist_test.amat  binarized_mnist_train.amat  binarized_mnist_valid.amat
     print('loading binary MNIST, sampled version (de Larochelle)')

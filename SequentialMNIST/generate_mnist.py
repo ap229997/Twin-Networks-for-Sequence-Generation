@@ -18,7 +18,6 @@ def repackage_hidden(h):
     else:
         return tuple(repackage_hidden(v) for v in h)
 
-
 @click.command()
 @click.option('--filename',default='./mnist/data/binarized_mnist_valid.amat')
 def generate(filename):
